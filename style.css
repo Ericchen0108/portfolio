@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500|Roboto:300,400');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+header.sticky .logo {
+    color: #111;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff !important;
+    font-size: 24px;
+}
+
+header.sticky ul li a {
+    color: #111 !important;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.w50 {
+    min-width: 50%;
+}
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    padding: 40px 40px;
+}
+
+.contentBx{
+    padding: 0 20px;
+}
+
+.contentBx h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.textBx a {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.textBx a:hover {
+    opacity: 1;
+  }
