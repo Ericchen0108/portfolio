@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500|Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500|Roboto:300,400');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -62,7 +62,7 @@ header.sticky .logo {
 
 header .logo {
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 3px;
@@ -101,8 +101,9 @@ header.sticky ul li a {
     border-radius: 5px;
 }
 
-.w50 {
-    min-width: 50%;
+.w40 {
+    max-width: 40%;
+    text-align: center;
 }
 .heading {
     width: 100%;
@@ -112,26 +113,35 @@ header.sticky ul li a {
 }
 
 .heading h2 {
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 40px;
 }
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: end;
+    
 }
 
+
 .about {
-    padding: 40px 40px;
+    padding: 20px 20px;
 }
 
 .contentBx{
     padding: 0 20px;
+    max-width: 60%;
 }
 
 .contentBx h3 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+.contentBx p {
+    font-size: 20px;
 }
 
 .textBx a {
@@ -183,49 +193,15 @@ header.sticky ul li a {
     padding: 0 40px;
 }
 
-.formBx {
-    min-width: 60%;
-}
-
-.formBx form {
-    display: flex;
-    flex-direction: column;
-}
-
-.formBx form h3, .contactInfo h3 {
+.contactInfo h3 {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.formBx form input {
-    margin-bottom: 20px ;
-    padding: 15px;
-    font-size: 16px;
-    background: #222;
-    color: #fff;
-    
-
-}
-
-.formBx form textarea {
-    resize: none !important;
-    margin-bottom: 20px !important;
-    min-height: 200px;
-    background: #222;
-    color: #fff;
-    padding: 15px;
-}
-
-#formbtn {
-    max-width: 100px;
-    margin-bottom: 20px;
-}
-
 .contactInfo {
-    min-width: 40%;
-    padding-right: 20px;
+    min-width: 50%;
 }
 .contactInfoBx {
     position: relative;
@@ -238,7 +214,7 @@ header.sticky ul li a {
 }
 
 .contactInfoBx .box .icon {
-    min-width: 15%;
+    min-width: 10%;
     color: #fff;
     display: flex;
     justify-content: flex-start;
@@ -258,4 +234,8 @@ header.sticky ul li a {
 .contactInfoBx .box .text h3 {
     font-weight: 500;
     color: #0368D9;
+}
+
+.fab {
+    color: white;
 }
