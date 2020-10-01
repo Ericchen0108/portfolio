@@ -101,6 +101,11 @@ header.sticky ul li a {
     border-radius: 5px;
 }
 
+.profile-img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
 .w40 {
     max-width: 40%;
     text-align: center;
@@ -121,7 +126,7 @@ header.sticky ul li a {
 .content {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     
 }
 
