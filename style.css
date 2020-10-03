@@ -346,6 +346,10 @@ header.sticky ul li a {
     .w40 {
         max-width: 60%;
     }
+
+    .projects .content .projectBx {
+        padding: 20px 10px;
+    }
 }
 
 @media (max-width: 600px)
